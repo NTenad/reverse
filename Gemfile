@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-gem 'sinatra'
-gem 'pry'
-gem 'shotgun'
-gem 'twitter'
+require "pry"
+require "shotgun"
+require "sinatra"
