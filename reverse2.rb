@@ -19,7 +19,7 @@ erb :index
 
 end
 
-post '/reponse' do
+get '/reponse' do
 
 prenom=params["prenom"]
 nom=params["nom"]
